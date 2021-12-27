@@ -1,6 +1,8 @@
 
 :root {
     --navhead-font: 'Rock 3D', cursive;
+    --secondary: #caceb1da;
+    --text-shadow: 0 1.5px 0 #706e6e7e;;
 }
 
 a {
@@ -23,13 +25,13 @@ a {
 }
     #nav-header {
     font-family: var(--navhead-font);
-    font-size: 30px;
+    font-size: 33px;
 }
 
 /* Pseudo Classes for Contact Links */
 #contact-link:hover {
     font-weight: bolder;
-    text-shadow: 0 2px 0 #706e6e7e;
+    text-shadow: var(--text-shadow);
 }
 
 /* #jumbotron img {
@@ -37,9 +39,17 @@ a {
 } */
 
 #navbarHeader {
-    background-color: #F7F4F2;
+    background-color: var(--secondary);
 }
 
 header {
     margin-bottom: 40px;
+}
+
+#card-header {
+    text-shadow: var(--text-shadow);
+}
+
+footer {
+    background-color:rgb(204, 203, 203);
 }

@@ -5,11 +5,18 @@
     --text-shadow: 0 1.77px 0 #706e6e7e;;
 }
 
+/* body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+} */
+
+/* all links */
 a {
     text-decoration: none;
     cursor: pointer;
 }
 
+/* nav container styling */
 #nav {
     transform: translateY(0%);
     transition: all 0.4s ease-in-out;
@@ -21,41 +28,65 @@ a {
     opacity: 1;
     z-index: 1040;
     margin-bottom: 20px;
+    /* background-color: rgba(33, 37, 41, 0.87); */
 
 }
+/* Lo Selby Nav Header Styling */
     #nav-header {
     font-family: var(--navhead-font);
     font-size: 33px;
 }
 
+/* About & Contact Me Container Styling */
+#navbarHeader {
+    background-color: var(--secondary);
+}
+
+/* Contact Me Section Container */
 #contact-div{
     border-left: dotted #0a0a0a56 2px;
 }
 
-/* Pseudo Classes for Contact Links */
-#contact-link:hover {
+/* Pseudo Classes for Links that feature shadow & bold hover styling */
+#shadow-link:hover {
     font-weight: bolder;
     text-shadow: var(--text-shadow);
 }
 
 
-
-#navbarHeader {
-    background-color: var(--secondary);
-}
-
-/* header {
-    margin-bottom: 40px;
-} */
-
+/* all headers that require a shadow */
 #shadow {
     text-shadow: var(--text-shadow);
 }
 
+/* footer styling */
 footer {
     background-color: #caccb9d3;
 }
 
+footer p {
+    color: rgba(10, 10, 10, 0.63);
+}
+
+/* card container styling */
 .album {
     background-color:rgb(219, 216, 216);
+}
+
+#scrollTop {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #343a40;
+    border: solid 1px #343a40;
+    text-align: center;
+    background: #fff;
+    font-size: .8rem;
+    z-index: 999;
+    cursor: pointer;
+    transition: border-color, color, background-color, bottom .5s ease-out;
 }

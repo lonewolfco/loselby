@@ -1,6 +1,6 @@
 # Lo Selby | Web Engineer | Portfolio
 
-https://loselby.github.io/lo-selb-portfolio/
+https://loselby.github.io/loselby
 
 
 ## About Lo

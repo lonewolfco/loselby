@@ -5,10 +5,9 @@
     --text-shadow: 0 1.77px 0 #706e6e7e;;
 }
 
-/* body {
-    min-height: 75rem;
-    padding-top: 4.5rem;
-} */
+body {
+    font-family: 'Spline Sans', sans-serif;
+}
 
 /* all links */
 a {
@@ -37,6 +36,15 @@ a {
     font-size: 33px;
 }
 
+h1, h2, h4 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 49px;
+}
+
 /* About & Contact Me Container Styling */
 #navbarHeader {
     background-color: var(--secondary);
@@ -51,9 +59,10 @@ a {
     font-size: 14px;
 }
 
+
 /* Pseudo Classes for Links that feature shadow & bold hover styling */
 #shadow-link:hover {
-    font-weight: bolder;
+    font-weight: 700;
     text-shadow: var(--text-shadow);
 }
 
@@ -77,15 +86,32 @@ footer p {
     background-color:rgb(219, 216, 216);
 }
 
+/* #resumeBtn {
+    margin-bottom: 10px;
+    width: 99px;
+    height: 37px;
+    line-height: 35px;
+    border: solid 1px #343a40;
+    text-align: center;
+    background: rgba(236, 234, 234, 0.747);
+    font-size: .9rem;
+    border-radius: 7px;
+} */
+
+
+/* #resumeBtn:hover{
+    background:rgba(10, 10, 10, 0.452);
+} */
+
 
 #scrollTop {
     display: none;
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    bottom: 4rem;
+    right: 1.7rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     color: #343a40;
     border: solid 1px #343a40;
     text-align: center;
@@ -94,4 +120,9 @@ footer p {
     z-index: 999;
     cursor: pointer;
     transition: border-color, color, background-color, bottom .5s ease-out;
+}
+
+#scrollTop:hover {
+    font-weight: bolder;
+    text-shadow: var(--text-shadow);
 }

@@ -3,12 +3,6 @@ var navBtn = document.querySelector("#nav-btn");
 var collapseContainer = document.querySelector("#navbarHeader");
 var scrollTopBtn = document.querySelector ("#scrollTop");
 
-// event listener for when the nav button is selected 
-// to focus the user on the expanded about & contact me section
-
-// navBtn.addEventListener("click", function () {
-//     aria-controls = "collapseContainer";
-// })
 
 // when window is being scrolled, run scroll function
 window.onscroll = function() {scrollFunction()};

@@ -47,6 +47,10 @@ a {
     border-right: dotted #0a0a0a56 2px;
 } */
 
+#about-me {
+    font-size: 14px;
+}
+
 /* Pseudo Classes for Links that feature shadow & bold hover styling */
 #shadow-link:hover {
     font-weight: bolder;

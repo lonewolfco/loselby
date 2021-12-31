@@ -50,15 +50,19 @@ h1 {
     background-color: var(--secondary);
 }
 
-/* Contact Me Section Container */
-/* #about-me{
-    border-right: dotted #0a0a0a56 2px;
-} */
 
 #about-me {
     font-size: 14px;
 }
 
+#resumeBtn a {
+    font-weight:bold;
+}
+
+#resumeBtn a:hover {
+    text-shadow: 0 2.5px 0 #d9ddd7d3;
+    font-weight: 700;
+}
 
 /* Pseudo Classes for Links that feature shadow & bold hover styling */
 #shadow-link:hover {

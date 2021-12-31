@@ -43,9 +43,9 @@ a {
 }
 
 /* Contact Me Section Container */
-#contact-div{
-    border-left: dotted #0a0a0a56 2px;
-}
+/* #about-me{
+    border-right: dotted #0a0a0a56 2px;
+} */
 
 /* Pseudo Classes for Links that feature shadow & bold hover styling */
 #shadow-link:hover {
@@ -72,6 +72,7 @@ footer p {
 .album {
     background-color:rgb(219, 216, 216);
 }
+
 
 #scrollTop {
     display: none;

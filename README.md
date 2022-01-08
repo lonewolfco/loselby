@@ -3,7 +3,7 @@
 
 
 
-https://loselby.github.io/loselby
+https://lonewolfco.github.io/loselby
 
 
 ## About Lo
